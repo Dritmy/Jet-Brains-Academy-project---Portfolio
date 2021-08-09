@@ -8,7 +8,6 @@ let menuBtn = document.querySelector(".menu-btn");
 let hmb = document.querySelector(".hamburger");
 let clsMenu = document.querySelector(".close-menu");
 
-
 btn.onclick = function() {
   windowPopUp.style.display = "block";
 }
@@ -37,9 +36,3 @@ clsMenu.onclick = function () {
     clsMenu.style.display = "none";
     menuBtn.style.display = "block";
 }
-
-/* window.onclick = function(event) {
-    if (event.target == windowPopUp) {
-        windowPopUp.style.display = "none";
-    }
-} */
